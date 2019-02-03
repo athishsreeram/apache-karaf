@@ -26,7 +26,6 @@ Pax CDI also provides an integration with OSGi services, enabling you to referen
 For this project it has the following
 
 **bndfile.bnd**
-
 `
 Bundle-Name: OSGI Provider
 Require-Capability: org.ops4j.pax.cdi.extension; filter:="(&(extension=pax-cdi-extension)(version>=${version;==;${pax.cdi.version}})(!(version>=${version;=+;${pax.cdi.version}})))", osgi.extender; filter:="(osgi.extender=pax.cdi)"
