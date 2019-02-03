@@ -104,7 +104,3 @@ ID | State  | Lvl | Version | Name
 70 | Active |  80 | 1.0.0   | osgi-example-osgi.api
 71 | Active |  80 | 1.0.0   | OSGI Provider
 
-
-Next Post we can see how we can consume this service in using Karaf CMD prompt.
-
-Karaf Command we can configure custom command to pass value to invoke the bundle.
